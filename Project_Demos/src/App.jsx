@@ -1,12 +1,15 @@
 // import Counter from './components/Counter'
-import Todo from './components/Todo'
+import Meals from './components/Meals'
+// import Todo from './components/Todo'
+
 
 function App() {
 
   return (
     <>
       {/* <Counter /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <Meals/>
     </>
   )
 }
