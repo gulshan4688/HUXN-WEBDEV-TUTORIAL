@@ -1,5 +1,7 @@
 // import Counter from './components/Counter'
-import Meals from './components/Meals'
+import Calculator from './components/Calculator'
+import ToggleBackGroundColor from './components/ToggleBackGroundColor'
+// import Meals from './components/Meals'
 // import Todo from './components/Todo'
 
 
@@ -9,7 +11,9 @@ function App() {
     <>
       {/* <Counter /> */}
       {/* <Todo /> */}
-      <Meals/>
+      {/* <Meals/> */}
+      {/* <Calculator/> */}
+      <ToggleBackGroundColor/>
     </>
   )
 }
