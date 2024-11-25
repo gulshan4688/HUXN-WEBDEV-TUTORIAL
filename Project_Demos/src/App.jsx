@@ -5,11 +5,9 @@
 // import Meals from './components/Meals'
 // import Todo from './components/Todo'
 // import Testimonial from "./components/Testimonial"
-import {accordionData} from "./util/content"
-
-
-import Accordion from "./components/Accordion"
-
+// import {accordionData} from "./util/content"
+// import Accordion from "./components/Accordion"
+import Form from "./components/Form" 
 
 function App() {
 
@@ -22,12 +20,13 @@ function App() {
       {/* <ToggleBackGroundColor/> */}
       {/* <HiddenSearchBar/> */}
       {/* <Testimonial/> */}
-      <div className="accordion">
+      {/* <div className="accordion">
         {accordionData.map(({title,content})=>{
 
            return <Accordion title={title} content={content} />
         })}
-      </div>
+      </div> */}
+      <Form/>
     </>
   )
 }
