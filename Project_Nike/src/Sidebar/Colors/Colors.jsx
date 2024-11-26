@@ -1,9 +1,18 @@
+import Input from '../../components/Input'
 import './Colors.css'
 
 
 const Colors = () => {
   return (
-    <div>Colors</div>
+    <div>
+      <h2 className='sidebar-title price-title' >Colors</h2>
+      <Input/>
+      <Input/>
+      <Input/>
+      <Input/>
+      <Input/>
+      <Input/>
+    </div>
   )
 }
 
