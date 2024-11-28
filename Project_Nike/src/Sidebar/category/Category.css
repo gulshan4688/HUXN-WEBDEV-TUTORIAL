@@ -33,7 +33,7 @@
     border-radius: 50%;
 }
 .sidebar-label-container:hover input ~ .checkmark{
-    background-color: #eee;
+    background-color: #7d7777;
 }
 
 .sidebar-label-container input:checked ~ .checkmark{
