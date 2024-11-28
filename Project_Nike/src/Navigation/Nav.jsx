@@ -4,11 +4,11 @@ import {AiOutlineShoppingCart,AiOutlineUserAdd} from "react-icons/ai";
 
 
 
-const Nav = () => {
+const Nav = ({handleInputChange}) => {
   return (
     <nav>
       <div className="nav-container">
-        <input type="text" placeholder="Enter Your Search" className="search-input" />
+        <input type="text" placeholder="Enter Your Search" className="search-input" onChange={handleInputChange} />
       </div>
       <div className="profile-container">
         <a href="#">

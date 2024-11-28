@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({onClinkHandler,value,title}) => {
   return (
-    <div>Button</div>
+    <div>
+      <button onClick={onClinkHandler} value={value} className='btns'>{title}</button>
+    </div>
   )
 }
 

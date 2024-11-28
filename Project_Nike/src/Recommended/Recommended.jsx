@@ -1,16 +1,17 @@
+import Button from '../components/Button'
 import './Recommended.css'
 
 
-const Recommended = () => {
+const Recommended = ({handleClick}) => {
   return (
     <div>
       <h2 className='recommended-title' >Recommended</h2>
       <div className="recommended-flex">
-        <button className='btns' >All Products</button>
-        <button className='btns' >Nike</button>
-        <button className='btns' >Puma</button>
-        <button className='btns' >Adidas</button>
-        <button className='btns' >Rebook</button>
+        <Button onClinkHandler={handleClick} value="" title="All Products"/>
+        <Button onClinkHandler={handleClick} value="Nike" title="Nike"/>
+        <Button onClinkHandler={handleClick} value="Adidas" title="Adidas"/>
+        <Button onClinkHandler={handleClick} value="Puma" title="Puma"/>
+        <Button onClinkHandler={handleClick} value="Vans" title="Vans"/>
       </div>
     </div>
   )
