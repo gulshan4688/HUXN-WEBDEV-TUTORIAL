@@ -17,16 +17,16 @@ const Form = () => {
     const name = useRef<HTMLInputElement>(null);
     const email = useRef<HTMLInputElement>(null);
     const password = useRef<HTMLInputElement>(null);
-
+       // telling the type of handleSibmit that it is of FormEvent type and its gonna fire on  HTML Input Element 
     const handleSubmit=(event:FormEvent<HTMLFormElement>)=>{
         event.preventDefault();
-
-        const nameValue=name.current!.value;
+        //The ! tells TypeScript that the value being accessed is not null or undefined, even if the type definition suggests it might be. Essentially, it is a way of asserting that the developer is confident the value is not null or undefined at that point in the code.
+        // const nameValue=name.current!.value;
         const emailValue=email.current!.value;
         const passwordValue=password.current!.value;
 
         setSubmitted({
-            name:nameValue,
+            name:name.current!.value,
             email:emailValue,
             password:passwordValue
         })
