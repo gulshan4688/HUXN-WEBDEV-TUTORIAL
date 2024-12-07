@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { FC } from "react";
+// import { FC } from "react";
 
 // here we will used UserShape Interface
 interface UserShape{
@@ -10,7 +10,7 @@ interface UserShape{
 }
 
 
-const Way6 : FC <UserShape> = ({naam,umar,isMale}) => {
+const Way6 : React.FC <UserShape> = ({naam,umar,isMale}) => {
   return (
     <div>
         <h2>{naam}</h2>

@@ -11,6 +11,9 @@ import AdminInfo from "./components/AdminInfo";
 import UserInfo from "./components/UserInfo";
 
 const App = () => {
+
+
+  //created 2 Objects user and admin 
   const user= {
     id: 1,
     name: "mani",
@@ -26,15 +29,17 @@ const App = () => {
 
   return (
     <div>
-      {/* <Way1 name={"mani"} age={20} isMale={true} />
+      {/* { <Way1 name={"mani"} age={20} isMale={true} />
       <Way2 naam={"mani"} umar={21} isMale={true} />
       <Way3 naam={"mani"} umar={22} isMale={true} />
       <Way4 naam={"mani"} umar={23} isMale={true} />
       <Way5>
         <h2>Using with Children</h2>
       </Way5>
-      <Way6 naam={"mani"} umar={23} isMale={true} />
-      <Button label="click" onclick={()=>alert("button clicked")} disabled={false} /> */}
+      <Way6 naam={"mani"} umar={23} isMale={true} /> */}
+      {/* <Button label="click" onclick={()=>alert("button clicked")} disabled={false} /> } */}
+
+      {/* /* // passed those created objects in their respective components  */ }
       <UserInfo user={user} />
       <AdminInfo admin={admin} />
     </div>
